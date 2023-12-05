@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styl2.css" />
+    <title>Formatowanie</title>
+  </head>
+  <body>
+    <section id="baner"><h1>Formatowanie dokumentów HTML</h1></section>
+    <section id="contentUpper">
+      <section class="left">
+        <h2>Przykład listy - hobby</h2>
+        <ul>
+          <li>muzyka</li>
+          <li>turystyka</li>
+          <ol>
+            1. góry
+          </ol>
+          <ol>
+            2. jziora
+          </ol>
+          <ol>
+            3. na rowerze
+          </ol>
+          <li>kziażki</li>
+        </ul>
+      </section>
+      <section class="middle">
+        <h2>Przykład tabeli</h2>
+        <table>
+          <tr>
+            <th>Pora dnia</th>
+            <th>Obowiazki</th>
+          </tr>
+          <tr>
+            <td>rano</td>
+            <td>nauka</td>
+          </tr>
+          <tr>
+            <td>południe</td>
+            <td>zajęcia dodatkowe</td>
+          </tr>
+          <tr>
+            <td>popołudnie</td>
+            <td rowspan="2fr">mojehobby</td>
+          </tr>
+          <tr>
+            <td>wieczór</td>
+          </tr>
+        </table>
+      </section>
+      <section class="right">
+        <img src="/napisy.png" alt="technologia web" />
+      </section>
+    </section>
+    <section id="contentLower">
+      <p>Podaj rozmiar tekstu w procentach: <input type="number" />%</p>
+
+      <p>
+        <select>
+          <option value="prosty">Prosty</option>
+          <option value="kursywa">Kursywa</option>
+        </select>
+      </p>
+
+      <p>
+        Jakim kolorem sformatować tekst? Wybierz przycisk
+        <button class="red"></button>
+        <button class="green"></button>
+        <button class="blue"></button>
+      </p>
+      <p>
+        To jest przykład paragrafu, który może być dowolnie formatowany przez
+        Java Script
+      </p>
+    </section>
+    <footer>
+      <p>Formatowaniem tekstu zajmował się: <i>PESEL</i></p>
+      <a href="formatowanie.pl">Odwiedź także</a>
+    </footer>
+  </body>
+</html>
